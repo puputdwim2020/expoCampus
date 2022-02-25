@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Register</title>
+</head>
+<body>
+	<link rel="stylesheet" type="text/css" href="style register.css">
+	<form class="login-form" method="" action="" name="submit">
+		<h1>Registrasi EXPO</h1>
+		<div class="regist">
+			<input type="text" name="username" placeholder="username" id="Username">
+		</div>
+
+		<div class="regist">
+			<input type="text" name="email" placeholder="email" id="email">
+		</div>
+
+		<div class="regist">
+			<input type="password" name="password" placeholder="password" id="Password">
+		</div>
+
+		<button type="button" onclick="validasi()" 
+		style="width: 80px; height: 30px;"
+		>Submit</button>
+
+	</form>
+</body>
+	<script type="text/javascript">
+			function validasi() {
+				var username = document.getElementById("Username").value;
+				var email = document.getElementById("email").value;
+				var password = document.getElementById("Password").value;
+				if (username != "" && email!="" && password!="") 
+			{
+			alert('SELAMAT!!\n\n'+'username :' + username +'\nemail :' + email +'password :' + password + '\n\nTelah Berhasil Melakukan Registrasi');
+			window.location = "home.html";
+			}
+			else{
+			alert('Anda harus mengisi data dengan lengkap !');
+			}
+			}
+		</script>
+</html>

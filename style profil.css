@@ -1,0 +1,185 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Open Sans",sans-serif;
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.logo {
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #ffffff;
+}
+
+.menu {
+    float: right;
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky; 
+    top: 0;
+    background-image: url(gambar/menu.jpg);
+    z-index: 1;
+    border-bottom:1px solid #364f6b;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.tbl-dark {
+    background: #0D1744;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #0734F5;
+    text-decoration: none;
+}
+
+
+#sidebar{
+    padding: 0px;
+    width: 29%;
+    position: relative;
+    float: right;
+}
+
+.widged{
+    width: 99%;
+    background-bottom: 5px;
+    background: #ffffff;
+    border-top: 1px solid #2D51EC;
+    border-bottom: 1px solid #2D51EC;
+    border-right: 1px solid #2D51EC;
+    border-left: 1px solid #2D51EC;
+    font-size: 100%;
+    margin: 0px 0px 5px 0px;
+}
+
+.judulwidged{
+    background: #0734F5;
+    padding: 5px 10px 5px 10px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.widged ul {
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+    list-style-type: none;
+}
+.widged li {
+    padding: 0px 0px 0px 0px; 
+    background-position: left;
+    background-repeat: no-repeat;
+    color: #333333;
+}
+.widged li a {
+    color: #333333;
+    border-bottom: 1px dotted #cccccc;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+    padding: 4px 5px 3px 10px;
+}
+.widged li a:hover {
+    color: blue;
+}
+
+.widged li iframe {
+    width: 99%;
+    background-bottom: 5px;
+    background: #ffffff;
+    border-top: 1px solid #2D51EC;
+    border-bottom: 1px solid #2D51EC;
+    border-right: 1px solid #2D51EC;
+    border-left: 1px solid #2D51EC;
+    font-size: 100%;
+    margin: 0px 0px 5px 0px;
+}
+#isi{
+    padding: 0;
+    width: 71%;
+    height: auto;
+    background-color: #ffffff;
+    position: relative;
+    margin-top: 5px;
+}
+
+.isiposting{
+    background-color: #5499C7;
+    width: 98%;
+    height: 150px;
+    margin-bottom: 5px;
+    padding: 5px;
+}
+
+.gambardepan{
+    float: left;
+    height: 140px;
+    width: 150px;
+    margin-right: 5px;
+    margin-top: 3px;
+    padding: 1px;
+    border: 1px solid #dddddd;
+}
+
+.isiposting h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 4px;
+    margin-bottom:3px;
+}
+
+.Sejarah {
+    border-radius: 5px;
+    padding: 2px;
+    text-align: justify;
+    padding: 10px 5px 10px 10px;
+}

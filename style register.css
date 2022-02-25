@@ -1,0 +1,55 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: montserrat;
+	box-sizing: border-box;
+}
+body{
+	background-image: url(gambar/oriental.jpg);
+	background-size: cover;
+}
+.login-form{
+	width: 360px;
+	background: #fff;
+	height: 480px;
+	padding: 80px 40px;
+	border-radius: 10px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+}
+.login-form h1{
+	text-align: center;
+	font-family: monstserrat;
+}
+.regist{
+	border-bottom: 1.5px solid #000000;
+	position: relative;
+	margin: 30px 0px;
+}
+.regist input{
+	font-size: 15px;
+	color: #000000;
+	border: none;
+	width: 100%;
+	outline: none;
+	background: none;
+	padding: 0 2px;
+	height: 40px;
+}
+.regist span::before{
+	position: absolute;
+	top: 50%;
+	left: 5px;
+	color: #000000;
+}
+.regist span::after{
+	position: absolute;
+	width: 0%;
+	height: 2px;
+	outline: none;
+	cursor: pointer;
+}
+
